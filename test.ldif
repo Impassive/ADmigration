@@ -1,0 +1,42 @@
+dn: cn=user1 fam1,ou=Employees,dc=wdt,dc=com
+cn: user1 fam1
+gidnumber: 10000
+givenname: user1
+homedirectory: /home/user1.fam1
+loginshell: /bin/bash
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+sn: fam1
+uid: user1.fam1
+uidnumber: 10008
+
+dn: cn=user2 fam2,ou=Employees,dc=wdt,dc=com
+cn: user2 fam2
+gidnumber: 10000
+givenname: user2
+homedirectory: /home/user2.fam2
+loginshell: /bin/bash
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+sn: fam2
+uid: user2.fam2
+uidnumber: 10009
+
+dn: cn=user3 fam3,ou=Employees,dc=wdt,dc=com
+cn: user3 fam3
+gidnumber: 10000
+givenname: user3
+homedirectory: /home/user3.fam3
+loginshell: /bin/bash
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+sn: fam3
+uid: user3.fam3
+uidnumber: 10010
+
