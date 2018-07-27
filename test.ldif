@@ -1,42 +1,884 @@
-dn: cn=user1 fam1,ou=Employees,dc=wdt,dc=com
-cn: user1 fam1
+dn: cn=Name Fam,ou=Employees,dc=wdt,dc=com
+cn: Name Fam
 gidnumber: 10000
-givenname: user1
-homedirectory: /home/user1.fam1
+givenname: Name
+homedirectory: /home/name.fam
 loginshell: /bin/bash
+mail: name.fam@weigandt-consulting.com
 objectclass: posixAccount
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
-sn: fam1
-uid: user1.fam1
+physicaldeliveryofficename: Spb
+sn: Fam
+title: Job title
+uid: name.fam
 uidnumber: 10008
 
-dn: cn=user2 fam2,ou=Employees,dc=wdt,dc=com
-cn: user2 fam2
+dn: cn=Elena Barkova,ou=Employees,dc=wdt,dc=com
+cn: Elena Barkova
 gidnumber: 10000
-givenname: user2
-homedirectory: /home/user2.fam2
+givenname: Elena
+homedirectory: /home/elena.barkova
 loginshell: /bin/bash
+mail: elena.barkova@weigandt-consulting.com
 objectclass: posixAccount
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
-sn: fam2
-uid: user2.fam2
+physicaldeliveryofficename: SPb
+sn: Barkova
+title: Software Engineer
+uid: elena.barkova
 uidnumber: 10009
 
-dn: cn=user3 fam3,ou=Employees,dc=wdt,dc=com
-cn: user3 fam3
+dn: cn=Denis Bogdanov,ou=Employees,dc=wdt,dc=com
+cn: Denis Bogdanov
 gidnumber: 10000
-givenname: user3
-homedirectory: /home/user3.fam3
+givenname: Denis
+homedirectory: /home/denis.bogdanov
 loginshell: /bin/bash
+mail: denis.bogdanov@weigandt-consulting.com
 objectclass: posixAccount
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
-sn: fam3
-uid: user3.fam3
+physicaldeliveryofficename: SPb
+sn: Bogdanov
+title: AMS Lead
+uid: denis.bogdanov
 uidnumber: 10010
+
+dn: cn=Sergey Fedoronchuk,ou=Employees,dc=wdt,dc=com
+cn: Sergey Fedoronchuk
+gidnumber: 10000
+givenname: Sergey
+homedirectory: /home/sergey.fedoronchuk
+loginshell: /bin/bash
+mail: sergey.fedoronchuk@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Fedoronchuk
+title: Senior Consultant
+uid: sergey.fedoronchuk
+uidnumber: 10011
+
+dn: cn=Natalia Gurenko,ou=Employees,dc=wdt,dc=com
+cn: Natalia Gurenko
+gidnumber: 10000
+givenname: Natalia
+homedirectory: /home/natalia.gurenko
+loginshell: /bin/bash
+mail: natalia.gurenko@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Gurenko
+title: Software Engineer
+uid: natalia.gurenko
+uidnumber: 10012
+
+dn: cn=Robert Krings,ou=Employees,dc=wdt,dc=com
+cn: Robert Krings
+gidnumber: 10000
+givenname: Robert
+homedirectory: /home/robert.krings
+loginshell: /bin/bash
+mail: robert.krings@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Aachen
+sn: Krings
+title: Consultant
+uid: robert.krings
+uidnumber: 10013
+
+dn: cn=Andrey Kritsky,ou=Employees,dc=wdt,dc=com
+cn: Andrey Kritsky
+gidnumber: 10000
+givenname: Andrey
+homedirectory: /home/andrey.kritsky
+loginshell: /bin/bash
+mail: andrey.kritsky@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Kritsky
+title: Application Management Engineer
+uid: andrey.kritsky
+uidnumber: 10014
+
+dn: cn=Nikita Nemtinov,ou=Employees,dc=wdt,dc=com
+cn: Nikita Nemtinov
+gidnumber: 10000
+givenname: Nikita
+homedirectory: /home/nikita.nemtinov
+loginshell: /bin/bash
+mail: nikita.nemtinov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Nemtinov
+title: Senior Consultant
+uid: nikita.nemtinov
+uidnumber: 10015
+
+dn: cn=Valentine Nikitsky,ou=Employees,dc=wdt,dc=com
+cn: Valentine Nikitsky
+gidnumber: 10000
+givenname: Valentine
+homedirectory: /home/valentine.nikitsky
+loginshell: /bin/bash
+mail: valentine.nikitsky@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Aachen
+sn: Nikitsky
+title: Solution Architect
+uid: valentine.nikitsky
+uidnumber: 10016
+
+dn: cn=Ulla Roszak,ou=Employees,dc=wdt,dc=com
+cn: Ulla Roszak
+gidnumber: 10000
+givenname: Ulla
+homedirectory: /home/ulla.roszak
+loginshell: /bin/bash
+mail: ulla.roszak@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Aachen
+sn: Roszak
+title: 
+uid: ulla.roszak
+uidnumber: 10017
+
+dn: cn=Escender Sary,ou=Employees,dc=wdt,dc=com
+cn: Escender Sary
+gidnumber: 10000
+givenname: Escender
+homedirectory: /home/escender.sary
+loginshell: /bin/bash
+mail: escender.sary@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Sary
+title: Software Engineer
+uid: escender.sary
+uidnumber: 10018
+
+dn: cn=Dmitry Suzdal,ou=Employees,dc=wdt,dc=com
+cn: Dmitry Suzdal
+gidnumber: 10000
+givenname: Dmitry
+homedirectory: /home/dmitry.suzdal
+loginshell: /bin/bash
+mail: dmitry.suzdal@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Suzdal
+title: Incident manager
+uid: dmitry.suzdal
+uidnumber: 10019
+
+dn: cn=Alexander Timofeev,ou=Employees,dc=wdt,dc=com
+cn: Alexander Timofeev
+gidnumber: 10000
+givenname: Alexander
+homedirectory: /home/alexander.timofeev
+loginshell: /bin/bash
+mail: alexander.timofeev@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Timofeev
+title: Manager
+uid: alexander.timofeev
+uidnumber: 10020
+
+dn: cn=Oleg Toporkov,ou=Employees,dc=wdt,dc=com
+cn: Oleg Toporkov
+gidnumber: 10000
+givenname: Oleg
+homedirectory: /home/oleg.toporkov
+loginshell: /bin/bash
+mail: oleg.toporkov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Toporkov
+title: Problem and Release manager
+uid: oleg.toporkov
+uidnumber: 10021
+
+dn: cn=Elmaz Valieva,ou=Employees,dc=wdt,dc=com
+cn: Elmaz Valieva
+gidnumber: 10000
+givenname: Elmaz
+homedirectory: /home/elmaz.valieva
+loginshell: /bin/bash
+mail: elmaz.valieva@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Valieva
+title: Analyst
+uid: elmaz.valieva
+uidnumber: 10022
+
+dn: cn=Inna Weigandt,ou=Employees,dc=wdt,dc=com
+cn: Inna Weigandt
+gidnumber: 10000
+givenname: Inna
+homedirectory: /home/inna.weigandt
+loginshell: /bin/bash
+mail: inna.weigandt@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Aachen
+sn: Weigandt
+title: Senior Consultant
+uid: inna.weigandt
+uidnumber: 10023
+
+dn: cn=Andrey Zaripov,ou=Employees,dc=wdt,dc=com
+cn: Andrey Zaripov
+gidnumber: 10000
+givenname: Andrey
+homedirectory: /home/andrey.zaripov
+loginshell: /bin/bash
+mail: andrey.zaripov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Zaripov
+title: Software Engineer
+uid: andrey.zaripov
+uidnumber: 10024
+
+dn: cn=Konstantin Orlov,ou=Employees,dc=wdt,dc=com
+cn: Konstantin Orlov
+gidnumber: 10000
+givenname: Konstantin
+homedirectory: /home/konstantin.orlov
+loginshell: /bin/bash
+mail: konstantin.orlov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Orlov
+title: Application Management Engineer
+uid: konstantin.orlov
+uidnumber: 10025
+
+dn: cn=Sergey Starosek,ou=Employees,dc=wdt,dc=com
+cn: Sergey Starosek
+gidnumber: 10000
+givenname: Sergey
+homedirectory: /home/sergey.starosek
+loginshell: /bin/bash
+mail: sergey.starosek@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Starosek
+title: Senior Software Engineer
+uid: sergey.starosek
+uidnumber: 10026
+
+dn: cn=Charles Lennard,ou=Employees,dc=wdt,dc=com
+cn: Charles Lennard
+gidnumber: 10000
+givenname: Charles
+homedirectory: /home/charles.lennard
+loginshell: /bin/bash
+mail: charles.lennard@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: London
+sn: Lennard
+title: Sales Director 
+uid: charles.lennard
+uidnumber: 10027
+
+dn: cn=Rostislav Palinsky,ou=Employees,dc=wdt,dc=com
+cn: Rostislav Palinsky
+gidnumber: 10000
+givenname: Rostislav
+homedirectory: /home/rostislav.palinsky
+loginshell: /bin/bash
+mail: rostislav.palinsky@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Palinsky
+title: Senior Consultant
+uid: rostislav.palinsky
+uidnumber: 10028
+
+dn: cn=Dmitry Kuzmin,ou=Employees,dc=wdt,dc=com
+cn: Dmitry Kuzmin
+gidnumber: 10000
+givenname: Dmitry
+homedirectory: /home/dmitry.kuzmin
+loginshell: /bin/bash
+mail: dmitry.kuzmin@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Kuzmin
+title: Software Engineer
+uid: dmitry.kuzmin
+uidnumber: 10029
+
+dn: cn=Nadezhda Otten,ou=Employees,dc=wdt,dc=com
+cn: Nadezhda Otten
+gidnumber: 10000
+givenname: Nadezhda
+homedirectory: /home/nadezhda.otten
+loginshell: /bin/bash
+mail: nadezhda.otten@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Otten
+title: Chief Accountant
+uid: nadezhda.otten
+uidnumber: 10030
+
+dn: cn=Denis Mokhov,ou=Employees,dc=wdt,dc=com
+cn: Denis Mokhov
+gidnumber: 10000
+givenname: Denis
+homedirectory: /home/denis.mokhov
+loginshell: /bin/bash
+mail: denis.mokhov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Mokhov
+title: Application Management Engineer
+uid: denis.mokhov
+uidnumber: 10031
+
+dn: cn=Vladimir Palatnikov,ou=Employees,dc=wdt,dc=com
+cn: Vladimir Palatnikov
+gidnumber: 10000
+givenname: Vladimir
+homedirectory: /home/vladimir.palatnikov
+loginshell: /bin/bash
+mail: vladimir.palatnikov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Palatnikov
+title: Application Management Engineer
+uid: vladimir.palatnikov
+uidnumber: 10032
+
+dn: cn=Alexey Magnushevsky,ou=Employees,dc=wdt,dc=com
+cn: Alexey Magnushevsky
+gidnumber: 10000
+givenname: Alexey
+homedirectory: /home/alexey.magnushevsky
+loginshell: /bin/bash
+mail: alexey.magnushevsky@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Magnushevsky
+title: Application Management Engineer
+uid: alexey.magnushevsky
+uidnumber: 10033
+
+dn: cn=Alina Naumova,ou=Employees,dc=wdt,dc=com
+cn: Alina Naumova
+gidnumber: 10000
+givenname: Alina
+homedirectory: /home/alina.naumova
+loginshell: /bin/bash
+mail: alina.naumova@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Naumova
+title: Human Resources Manager
+uid: alina.naumova
+uidnumber: 10034
+
+dn: cn=Alexander Petrov,ou=Employees,dc=wdt,dc=com
+cn: Alexander Petrov
+gidnumber: 10000
+givenname: Alexander
+homedirectory: /home/alexander.petrov
+loginshell: /bin/bash
+mail: alexander.petrov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Petrov
+title: Application Management Engineer
+uid: alexander.petrov
+uidnumber: 10035
+
+dn: cn=Vasilii Markin,ou=Employees,dc=wdt,dc=com
+cn: Vasilii Markin
+gidnumber: 10000
+givenname: Vasilii
+homedirectory: /home/vasilii.markin
+loginshell: /bin/bash
+mail: vasilii.markin@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Markin
+title: PLSQL Developer
+uid: vasilii.markin
+uidnumber: 10036
+
+dn: cn=Alexandra Soboleva,ou=Employees,dc=wdt,dc=com
+cn: Alexandra Soboleva
+gidnumber: 10000
+givenname: Alexandra
+homedirectory: /home/alexandra.soboleva
+loginshell: /bin/bash
+mail: alexandra.soboleva@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Soboleva
+title: PL/SQL Developer
+uid: alexandra.soboleva
+uidnumber: 10037
+
+dn: cn=Mikhail Toporov,ou=Employees,dc=wdt,dc=com
+cn: Mikhail Toporov
+gidnumber: 10000
+givenname: Mikhail
+homedirectory: /home/mikhail.toporov
+loginshell: /bin/bash
+mail: mikhail.toporov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Toporov
+title: Software Engineer
+uid: mikhail.toporov
+uidnumber: 10038
+
+dn: cn=Gleb Bogodukhov,ou=Employees,dc=wdt,dc=com
+cn: Gleb Bogodukhov
+gidnumber: 10000
+givenname: Gleb
+homedirectory: /home/gleb.bogodukhov
+loginshell: /bin/bash
+mail: gleb.bogodukhov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Bogodukhov
+title: Functional analyst
+uid: gleb.bogodukhov
+uidnumber: 10039
+
+dn: cn=Ivan Pilyushenko,ou=Employees,dc=wdt,dc=com
+cn: Ivan Pilyushenko
+gidnumber: 10000
+givenname: Ivan
+homedirectory: /home/ivan.pilyushenko
+loginshell: /bin/bash
+mail: ivan.pilyushenko@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Pilyushenko
+title: ASM Engineer
+uid: ivan.pilyushenko
+uidnumber: 10040
+
+dn: cn=Valeria Danekina,ou=Employees,dc=wdt,dc=com
+cn: Valeria Danekina
+gidnumber: 10000
+givenname: Valeria
+homedirectory: /home/valeria.danekina
+loginshell: /bin/bash
+mail: valeria.danekina@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Danekina
+title: Resource manager
+uid: valeria.danekina
+uidnumber: 10041
+
+dn: cn=Alexei Kuksa,ou=Employees,dc=wdt,dc=com
+cn: Alexei Kuksa
+gidnumber: 10000
+givenname: Alexei
+homedirectory: /home/alexei.kuksa
+loginshell: /bin/bash
+mail: alexei.kuksa@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Kuksa
+title: Senior Functional Consultant
+uid: alexei.kuksa
+uidnumber: 10042
+
+dn: cn=Elena Kozlova,ou=Employees,dc=wdt,dc=com
+cn: Elena Kozlova
+gidnumber: 10000
+givenname: Elena
+homedirectory: /home/elena.kozlova
+loginshell: /bin/bash
+mail: elena.kozlova@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Kozlova
+title: Functional Consultant
+uid: elena.kozlova
+uidnumber: 10043
+
+dn: cn=Anand Balasubramanian,ou=Employees,dc=wdt,dc=com
+cn: Anand Balasubramanian
+gidnumber: 10000
+givenname: Anand
+homedirectory: /home/anand.balasubramanian
+loginshell: /bin/bash
+mail: anand.balasubramanian@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Bangalore
+sn: Balasubramanian
+title: 
+uid: anand.balasubramanian
+uidnumber: 10044
+
+dn: cn=Valeriy Nazymko,ou=Employees,dc=wdt,dc=com
+cn: Valeriy Nazymko
+gidnumber: 10000
+givenname: Valeriy
+homedirectory: /home/valeriy.nazymko
+loginshell: /bin/bash
+mail: valeriy.nazymko@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Nazymko
+title: Senior Java Developer
+uid: valeriy.nazymko
+uidnumber: 10045
+
+dn: cn=Artem Karpov,ou=Employees,dc=wdt,dc=com
+cn: Artem Karpov
+gidnumber: 10000
+givenname: Artem
+homedirectory: /home/artem.karpov
+loginshell: /bin/bash
+mail: artem.karpov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Karpov
+title: AMS Engineer
+uid: artem.karpov
+uidnumber: 10046
+
+dn: cn=Nikita Tkachev,ou=Employees,dc=wdt,dc=com
+cn: Nikita Tkachev
+gidnumber: 10000
+givenname: Nikita
+homedirectory: /home/nikita.tkachev
+loginshell: /bin/bash
+mail: nikita.tkachev@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Tkachev
+title: AMS Engineer
+uid: nikita.tkachev
+uidnumber: 10047
+
+dn: cn=Alexander Fedotov,ou=Employees,dc=wdt,dc=com
+cn: Alexander Fedotov
+gidnumber: 10000
+givenname: Alexander
+homedirectory: /home/alexander.fedotov
+loginshell: /bin/bash
+mail: alexander.fedotov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Fedotov
+title: Senior Java Developer
+uid: alexander.fedotov
+uidnumber: 10048
+
+dn: cn=Elena Verkhozina,ou=Employees,dc=wdt,dc=com
+cn: Elena Verkhozina
+gidnumber: 10000
+givenname: Elena
+homedirectory: /home/elena.verkhozina
+loginshell: /bin/bash
+mail: elena.verkhozina@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Verkhozina
+title: Team Assistant
+uid: elena.verkhozina
+uidnumber: 10049
+
+dn: cn=Sofia Smolianinova,ou=Employees,dc=wdt,dc=com
+cn: Sofia Smolianinova
+gidnumber: 10000
+givenname: Sofia
+homedirectory: /home/sofia.smolianinova
+loginshell: /bin/bash
+mail: sofia.smolianinova@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Smolianinova
+title: PL/SQL Developer
+uid: sofia.smolianinova
+uidnumber: 10050
+
+dn: cn=Ekaterina Doronina,ou=Employees,dc=wdt,dc=com
+cn: Ekaterina Doronina
+gidnumber: 10000
+givenname: Ekaterina
+homedirectory: /home/ekaterina.doronina
+loginshell: /bin/bash
+mail: ekaterina.doronina@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Doronina
+title: Functional Analyst
+uid: ekaterina.doronina
+uidnumber: 10051
+
+dn: cn=Dmitry Baluev,ou=Employees,dc=wdt,dc=com
+cn: Dmitry Baluev
+gidnumber: 10000
+givenname: Dmitry
+homedirectory: /home/dmitry.baluev
+loginshell: /bin/bash
+mail: dmitry.baluev@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Baluev
+title: ASM Engineer
+uid: dmitry.baluev
+uidnumber: 10052
+
+dn: cn=Alexandr Zimnitsky,ou=Employees,dc=wdt,dc=com
+cn: Alexandr Zimnitsky
+gidnumber: 10000
+givenname: Alexandr
+homedirectory: /home/alexandr.zimnitsky
+loginshell: /bin/bash
+mail: alexandr.zimnitsky@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Zimnitsky
+title: AMS Engineer
+uid: alexandr.zimnitsky
+uidnumber: 10053
+
+dn: cn=Alexandr Chebakov,ou=Employees,dc=wdt,dc=com
+cn: Alexandr Chebakov
+gidnumber: 10000
+givenname: Alexandr
+homedirectory: /home/alexandr.chebakov
+loginshell: /bin/bash
+mail: alexandr.chebakov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Chebakov
+title: AMS Engineer
+uid: alexandr.chebakov
+uidnumber: 10054
+
+dn: cn=Stephen Mccafferty,ou=Employees,dc=wdt,dc=com
+cn: Stephen Mccafferty
+gidnumber: 10000
+givenname: Stephen
+homedirectory: /home/stephen.mccafferty
+loginshell: /bin/bash
+mail: stephen.mccafferty@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: London
+sn: Mccafferty
+title: Sales Director
+uid: stephen.mccafferty
+uidnumber: 10055
+
+dn: cn=Kamilla Tsoi,ou=Employees,dc=wdt,dc=com
+cn: Kamilla Tsoi
+gidnumber: 10000
+givenname: Kamilla
+homedirectory: /home/kamilla.tsoi
+loginshell: /bin/bash
+mail: kamilla.tsoi@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Tsoi
+title: Functional Analyst
+uid: kamilla.tsoi
+uidnumber: 10056
+
+dn: cn=Kamil Akhmetianov,ou=Employees,dc=wdt,dc=com
+cn: Kamil Akhmetianov
+gidnumber: 10000
+givenname: Kamil
+homedirectory: /home/kamil.akhmetianov
+loginshell: /bin/bash
+mail: kamil.akhmetianov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Akhmetianov
+title: AMS Engineer
+uid: kamil.akhmetianov
+uidnumber: 10057
+
+dn: cn=Alexandr Moshkov,ou=Employees,dc=wdt,dc=com
+cn: Alexandr Moshkov
+gidnumber: 10000
+givenname: Alexandr
+homedirectory: /home/alexandr.moshkov
+loginshell: /bin/bash
+mail: alexandr.moshkov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Moshkov
+title: AMS Engineer
+uid: alexandr.moshkov
+uidnumber: 10058
+
+dn: cn=Andre Weigandt,ou=Employees,dc=wdt,dc=com
+cn: Andre Weigandt
+gidnumber: 10000
+givenname: Andre
+homedirectory: /home/andre.weigandt
+loginshell: /bin/bash
+mail: andre.weigandt@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: Aachen
+sn: Weigandt
+title: CEO
+uid: andre.weigandt
+uidnumber: 10059
 
