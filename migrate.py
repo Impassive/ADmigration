@@ -1,7 +1,6 @@
 import csv
 
-f = open("test.ldif", "w+")
-with open('test.csv') as csvfile:
+with open('test.csv') as csvfile, open("test.ldif", "w+") as f:
      reader = csv.DictReader(csvfile)
      baseuid = 10008
      base = str(baseuid)
@@ -30,4 +29,3 @@ with open('test.csv') as csvfile:
                  "uidnumber: "+base+"\n\n")
          baseuid+=1
          base = str(baseuid)
-f.close()
