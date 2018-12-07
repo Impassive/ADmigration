@@ -1,17 +1,18 @@
-dn: cn=Name Fam,ou=Employees,dc=wdt,dc=com
-cn: Name Fam
+dn: cn=First_name Last_name,ou=Konzum,ou=Projects,dc=wdt,dc=com
+cn: First_name Last_name
 gidnumber: 10000
-givenname: Name
-homedirectory: /home/name.fam
+givenname: First_name
+homedirectory: /home/first_name.last_name
 loginshell: /bin/bash
-mail: name.fam@weigandt-consulting.com
+userpassword: {SSHA}XyNGoiDwVNem6flp26UvkeSlgTw+Z0yp
+mail: first_name.last_name@weigandt-consulting.com
 objectclass: posixAccount
 objectclass: inetOrgPerson
 objectclass: organizationalPerson
 objectclass: person
 physicaldeliveryofficename: Spb
-sn: Fam
+sn: Last_name
 title: Job title
-uid: name.fam
-uidnumber: 10008
+uid: first_name.last_name
+uidnumber: 30001
 
