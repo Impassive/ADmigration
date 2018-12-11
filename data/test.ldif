@@ -1,0 +1,36 @@
+dn: cn=Alexander Petrov,ou=Konzum,ou=Projects,dc=wdt,dc=com
+cn: Alexander Petrov
+gidnumber: 10000
+givenname: Alexander
+homedirectory: /home/Alexander.Petrov
+loginshell: /bin/bash
+userpassword: {SSHA}3Yf8ZPS+wMLf67hsbf2cdv7VKf8opdSa
+mail: Alexander.Petrov@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Petrov
+title: AMS Engineer
+uid: Alexander.Petrov
+uidnumber: 30001
+
+dn: cn=Nikita Tkachev,ou=Konzum,ou=Projects,dc=wdt,dc=com
+cn: Nikita Tkachev
+gidnumber: 10000
+givenname: Nikita
+homedirectory: /home/Nikita.Tkachev
+loginshell: /bin/bash
+userpassword: {SSHA}EuXj+IEovCQqupU+DYemEnViM4bxfg/h
+mail: Nikita.Tkachev@weigandt-consulting.com
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+physicaldeliveryofficename: SPb
+sn: Tkachev
+title: AMS Engineer
+uid: Nikita.Tkachev
+uidnumber: 30002
+
