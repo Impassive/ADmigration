@@ -28,4 +28,4 @@ with open('./data/mailer.csv') as csvfile:
         mailBody += "\n" + "Password: " + clearPassword
         mailBody += "\n" + "Hash: " + hash
         print(mailBody)
-        mail_notification(mailBody,"tmv1995@gmail.com")
+        mail_notification(mailBody,"***")
